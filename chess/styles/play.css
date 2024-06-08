@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.chess-board {
+    border-spacing: 0;
+    border-collapse: collapse;
+    margin-right: 3em;
+    margin-bottom: 3em;
+    font-size: x-large
+}
+
+.chess-board th {
+    width: 3em;
+    height: 3em;
+}
+
+.chess-board td {
+    border: 1px solid;
+    width: 3em;
+    height: 3em;
+}
+
+.chess-board .white-square {
+    background: #eee;
+}
+
+.chess-board .black-square {
+    background: #868686;
+}
